@@ -23,7 +23,7 @@ public class TikTakToe {
 			int row = s.nextInt();
 			int col = s.nextInt();
 			
-			// for exception case
+			// for exceptional case
 			if(row > 2 || col > 2) {
 				System.out.println("Invalid move. start again!");
 				return;
